@@ -9,6 +9,7 @@ body {background-color: powderblue;
     font-family: 'Roboto',san-serif;
 }
 
+p,
 .box {
 background-color:aquamarine;
 max-width:400px;
@@ -25,6 +26,7 @@ a:hover{
 b:active{
     color:black
 }
+p,
 .flex-container{
     grid-column-start:1;
     grid-column-end:4;
@@ -81,7 +83,7 @@ width:50%
 p,
 .box2 {
 background-color:white;
-height:400px;
+height:100px;
 width:200px;
 margin: 10p 5p 10p 5p;
 padding: 5p 10p 5p 10p;
