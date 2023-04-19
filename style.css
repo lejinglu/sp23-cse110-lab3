@@ -8,13 +8,15 @@ body {background-color: powderblue;
 @font-face{
     font-family: 'Roboto',san-serif;
 }
-div {
+
+.box {
+background-color:aquamarine;
 max-width:400px;
 max-height:200px;
 margin-top:20px;
 padding-top:25px;
 border-top: 10p solid blue;
-border-bottom: 5p dotted solid black;
+border-bottom: 10p dotted solid black;
 }
 p.ex1{display: none;}
 a:hover{
@@ -76,8 +78,9 @@ width:10mm
 width:50%
 }
 
-
-li {
+p,
+.box2 {
+background-color:white;
 height:400px;
 width:200px;
 margin: 10p 5p 10p 5p;
