@@ -1,0 +1,48 @@
+body {background-color: powderblue;}
+.box{
+max-width:400px;
+max-height:200px;
+margin-top:20px;
+padding-top:25px;
+border-top: 10p solid blue;
+border-bottom: 5p dotted solid black;
+}
+div.a{
+test-allign: center;
+}
+h1{
+text-decoration: underline;
+}
+.wrapper{
+font-size: 1em;
+}
+.px{
+width: 200px
+}
+.cm{
+width:1cm
+}
+.mm{
+width:10mm
+}
+.percent{
+width:50%
+}
+
+
+.box2{
+height:400px;
+width:200px;
+margin: 10p 5p 10p 5p;
+padding: 5p 10p 5p 10p;
+border-width: 10px;
+border-radius: 50px;
+}
+.ems li{
+font-size: 1.3em;
+}
+.rems li{
+font-size: 1.3rem;
+}
+p.ex2{display: block;}
+/*complete*/
