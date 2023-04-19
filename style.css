@@ -1,4 +1,13 @@
-body {background-color: powderblue;}
+body {background-color: powderblue;
+    font-family: 'Roboto',san-serif;}
+@media only screen and (max-width:500px){
+    body{
+        background-color:yellow;
+    }
+}
+@font-face{
+    font-family: 'Roboto',san-serif;
+}
 .box{
 max-width:400px;
 max-height:200px;
@@ -6,6 +15,44 @@ margin-top:20px;
 padding-top:25px;
 border-top: 10p solid blue;
 border-bottom: 5p dotted solid black;
+}
+
+a:hover{
+    color:red
+}
+b:active{
+    color:black
+}
+.flex-container{
+    grid-column-start:1;
+    grid-column-end:4;
+    grid-row-start:1;
+    grid-row-end:span 1;
+
+    align-items: baseline;
+    justify-content:flex-start;
+    flex-flow:column wrap;
+    background-color:green
+}
+.flex-container > inside{
+    background-color:white;
+    font-size:40px;
+}
+#one{
+    display:inline-block;
+    width:50px;
+    height:50px;
+    background:white;
+}
+#two{
+    position:relative;
+    bottom:20px;
+    background:black
+}
+#three{
+    position:absolute;
+    top:20px;
+    background:blueviolet
 }
 div.a{
 test-allign: center;
