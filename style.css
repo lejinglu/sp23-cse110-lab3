@@ -1,14 +1,24 @@
 body {background-color: powderblue;
     font-family: 'Roboto',san-serif;}
-@media only screen and (max-width:500px){
+@media (max-width:800px){
     body{
         background-color:yellow;
     }
 }
-@font-face{
+@font-face {
     font-family: 'Roboto',san-serif;
 }
+.roboto {
+    font-family:'Roboto',san-serif;
+}
+a[target="website"]{
+    background-color: bisque;
+}
 
+#idselect {
+    text-align:end;
+    color:blueviolet;
+}
 p,
 .box {
 background-color:aquamarine;
@@ -23,17 +33,18 @@ p.ex1{display: none;}
 a:hover{
     color:red
 }
-b:active{
+a:active{
     color:black
 }
+p:hover{
+    color:darkblue;
+    background-color: aliceblue;
+}
+
 
 .flex-container{
     display:flex;
-    grid-column-start:1;
-    grid-column-end:4;
-    grid-row-start:1;
-    grid-row-end:span 1;
-
+    margin:10px;
     align-items: baseline;
     justify-content:flex-start;
     flex-flow:column wrap;
@@ -43,6 +54,17 @@ b:active{
     background-color:white;
     font-size:40px;
 }
+.grid-container{
+    display:inline-grid;
+    grid-template-columns: auto auto auto;
+    background-color: brown;
+    padding:20px;
+}
+.grid-item{
+    background-color:bisque;
+    justify-self: stretch;
+}
+
 /*#one{
     display:inline-block;
     width:50px;
@@ -59,11 +81,15 @@ b:active{
     top:20px;
     background:blueviolet
 }*/
-div.a{
-test-allign: center;
+.a{
+text-align: center;
 }
 h1{
 text-decoration: underline;
+}
+div p{
+    background-color: palegreen;
+    color:white;
 }
 .wrapper{
 font-size: 1em;
@@ -80,9 +106,23 @@ width:10mm
 .percent{
 width:50%
 }
+*.cm {
+    text-align: center;
+    color:brown;
+}
+h1,h2{
+    background-color: plum;
+}
+ul li{
+    color:hotpink;
+    background-color: sandybrown;
+}
 
+p ~ ul{
+    color:tomato
+}
 
-li.box2 {
+.box2 {
 background-color:white;
 height:100px;
 width:200px;
