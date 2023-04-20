@@ -43,6 +43,7 @@ p:hover{
 
 
 .flex-container{
+    padding: 10px
     display:flex;
     margin:10px;
     align-items: baseline;
